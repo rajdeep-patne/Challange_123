@@ -27,5 +27,20 @@ Management
 3. All the deployment has to be done via IAC so that changes/ fix can be done faster.
 4. The Code should have variables for Location, Environment ( DEV,UAT,Prod, etc ),Keys, Roles etc so that same code can be reused.
 
+Performance:
+1. Cloud CDN provides caching at the Google Pop location, using this can improve the latency for the static content
+2. Premium Network will be used to improve latency
+3. Using cloud native tools improves the performance as it provides instant scaling and uses google backbone for communication.
 
- 
+##########################################
+
+Challange 2:
+
+Instance metadata can be accessed via link http://169.254.169.254/latest/meta-data/ if ran from the VM instance, It has multiple paramets which can be individually queried.
+Curl utility is used in linux to pull the information from this site
+Shell script is used to achive Json formatting and extract the information.
+
+#######################################
+
+Challange 3:
+

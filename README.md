@@ -44,3 +44,7 @@ Shell script is used to achive Json formatting and extract the information.
 
 Challange 3:
 
+Following is the process followed
+1. Getting 2 inputs Object and Keys
+2. filtering all alphanumeric characters from both objects and keys
+3. Removing the keys part from Object to get the value.
